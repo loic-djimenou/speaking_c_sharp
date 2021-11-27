@@ -1,0 +1,6 @@
+Trace error
+Trace warning
+Trace information
+Debugung
+Debug says, I am watching!
+Trace says, I am watching!
