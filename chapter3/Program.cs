@@ -61,11 +61,11 @@ object o = "3";
 
 int j = 4;
 
-if(o is int i)
+if (o is int i)
 {
     WriteLine($"{i} x {j} = {i * j}");
 }
-else if(o is string k)
+else if (o is string k)
 {
     WriteLine($"o is a string of {k.Length} characters");
 }
@@ -85,22 +85,22 @@ WriteLine($"My random number is {number}");
 switch (number)
 {
     case 1:
-    WriteLine("One");
-    break; // jumps to end of switch statement
+        WriteLine("One");
+        break; // jumps to end of switch statement
     case 2:
-    WriteLine("Two");
-    goto case 1;
+        WriteLine("Two");
+        goto case 1;
     case 3:
     case 4:
-    WriteLine("Three or four");
-    goto case 1;
+        WriteLine("Three or four");
+        goto case 1;
     case 5:
-    // go to sleep for half a second
-    System.Threading.Thread.Sleep(500);
-    goto A_label;
+        // go to sleep for half a second
+        System.Threading.Thread.Sleep(500);
+        goto A_label;
     default:
-    WriteLine("Default");
-    break;
+        WriteLine("Default");
+        break;
 } // end of switch statement
 
 
@@ -119,35 +119,35 @@ switch (s)
 
 {
 
-case FileStream writeableFile when s.CanWrite:
+    case FileStream writeableFile when s.CanWrite:
 
-message = "The stream is a file that I can write to.";
+        message = "The stream is a file that I can write to.";
 
-break;
+        break;
 
-case FileStream readOnlyFile:
+    case FileStream readOnlyFile:
 
-message = "The stream is a read-only file.";
+        message = "The stream is a read-only file.";
 
-break;
+        break;
 
-case MemoryStream ms:
+    case MemoryStream ms:
 
-message = "The stream is a memory address.";
+        message = "The stream is a memory address.";
 
-break;
+        break;
 
-default: // always evaluated last despite its current position
+    default: // always evaluated last despite its current position
 
-message = "The stream is some other type.";
+        message = "The stream is some other type.";
 
-break;
+        break;
 
-case null:
+    case null:
 
-message = "The stream is null.";
+        message = "The stream is null.";
 
-break;
+        break;
 
 }
 
@@ -159,25 +159,25 @@ message = s switch
 
 {
 
-FileStream writeableFile when s.CanWrite
+    FileStream writeableFile when s.CanWrite
 
-=> "The stream is a file that I can write to.",
+    => "The stream is a file that I can write to.",
 
-FileStream readOnlyFile
+    FileStream readOnlyFile
 
-=> "The stream is a read-only file.",
+    => "The stream is a read-only file.",
 
-MemoryStream ms
+    MemoryStream ms
 
-=> "The stream is a memory address.",
+    => "The stream is a memory address.",
 
-null
+    null
 
-=> "The stream is null.",
+    => "The stream is null.",
 
-_
+    _
 
-=> "The stream is some other type."
+    => "The stream is some other type."
 
 };
 
@@ -196,7 +196,7 @@ foreach (double n in doubles)
 {
     WriteLine($"ToInt({n}) is {Convert.ToInt32(n)}");
     WriteLine(
-        format:"Math.Round({0}, 0, MidpointRounding.AwayFromZero) is {1}",
+        format: "Math.Round({0}, 0, MidpointRounding.AwayFromZero) is {1}",
         arg0: n,
         arg1: Math.Round(value: n, digits: 0, mode: MidpointRounding.AwayFromZero)
     );
@@ -213,11 +213,11 @@ byte[] binaryObject = new byte[128];
 
 WriteLine("Binary Object as bytes:");
 
-for(int index = 0; index < binaryObject.Length; index++)
+for (int index = 0; index < binaryObject.Length; index++)
 
 {
 
-Write($"{binaryObject[index]:X} ");
+    Write($"{binaryObject[index]:X} ");
 
 }
 
@@ -317,26 +317,26 @@ unchecked
 
 {
 
-int y = int.MaxValue + 1;
+    int y = int.MaxValue + 1;
 
-WriteLine($"Initial value: {y}");
+    WriteLine($"Initial value: {y}");
 
-y--;
+    y--;
 
-WriteLine($"After decrementing: {y}");
+    WriteLine($"After decrementing: {y}");
 
-y--;
+    y--;
 
-WriteLine($"After decrementing: {y}");
+    WriteLine($"After decrementing: {y}");
 
 
-double willBeDivided = 99;
+    double willBeDivided = 99;
 
-WriteLine($"{willBeDivided/0}");
+    WriteLine($"{willBeDivided / 0}");
 
-int maxx = (int)9999999999999999999;
+    int maxx = (int)9999999999999999999;
 
-WriteLine($"Maxxx {maxx}");
+    WriteLine($"Maxxx {maxx}");
 }
 
 var manox = 3 << 2;

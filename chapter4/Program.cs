@@ -1,11 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using  System.Diagnostics;
+using System.Diagnostics;
 using System.IO;
 using Microsoft.Extensions.Configuration;
 
 Console.WriteLine("Hello, World!");
 
-var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json",optional: true, reloadOnChange: true);
+var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 IConfigurationRoot configuration = builder.Build();
 var ts = new TraceSwitch(
     displayName: "PacktSwitch",
@@ -43,7 +43,7 @@ static void TimesTable(byte number)
 {
     for (int i = 0; i <= 12; i++)
     {
-        Console.WriteLine($" {i}x{number} = {i*number} ");
+        Console.WriteLine($" {i}x{number} = {i * number} ");
     }
 }
 
@@ -54,7 +54,7 @@ static void TimesTable(byte number)
 /// <returns>Calculated the factorial</returns>
 static int Factorial(int number)
 {
-    if(number < 1)
+    if (number < 1)
     {
         return 0;
     }
@@ -62,7 +62,7 @@ static int Factorial(int number)
     {
         return 1;
     }
-    else 
+    else
     {
         Console.WriteLine("eeeeee");
         return number * Factorial(number - 1);

@@ -55,7 +55,7 @@ namespace Packt.Shared
 
     public class Animal : IDisposable
     {
-        public string Name = default;
+        public string? Name = default;
         public Animal()
         {
             // allocate any unmanaged resources

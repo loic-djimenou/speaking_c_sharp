@@ -7,9 +7,9 @@
 
         public DateTime When;
 
-        public string Name;
+        public string? Name;
 
-        public List<Person> People;
+        public List<Person>? People;
 
         public ThingOfDefaults()
 
@@ -52,7 +52,7 @@
             }
         }
 
-        private string temp;
+        private string? temp;
         public string Origin
         {
             get
@@ -68,10 +68,10 @@
         public string Greeting => $"{Name} says 'Hello!'";
         public int Age => System.DateTime.Today.Year - DateOfBirth.Year;
 
-        public string Name;
+        public string? Name;
         public DateTime DateOfBirth;
         public WondersOfTheAncientWorldTow BucketList;
-        public Person[] Children;
+        public Person[]? Children;
 
         public (string, int) GetFruit()
         {

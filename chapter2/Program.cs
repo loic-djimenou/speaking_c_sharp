@@ -52,7 +52,7 @@ namespace Basics
 
             string[] list = new string[4];
 
-            int? nullableIn = null ;
+            int? nullableIn = null;
 
             Console.WriteLine(nullableIn);
 

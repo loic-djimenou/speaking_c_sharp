@@ -106,7 +106,7 @@ namespace Packt.Shared
 
     public class Employee : Person
     {
-        public string EmployeeCode { get; set; }
+        public string? EmployeeCode { get; set; }
         public DateTime HireDate { get; set; }
         public override void WriteToConsole()
         {
@@ -132,7 +132,7 @@ namespace Packt.Shared
         {
             // use simple regular expression to check
             // that the input string is a valid email
-            return Regex.IsMatch(input,@"[a-zA-Z0-9\.-_]+@[a-zA-Z0-9\.-_]+");
+            return Regex.IsMatch(input, @"[a-zA-Z0-9\.-_]+@[a-zA-Z0-9\.-_]+");
         }
     }
 }

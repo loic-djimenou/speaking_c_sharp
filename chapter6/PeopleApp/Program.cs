@@ -21,7 +21,8 @@ WriteLine($"{mary.Name} has {mary.Children.Count} children.");
 
 WriteLine($"{jill.Name} has {jill.Children.Count} children.");
 
-foreach(Person child in harry.Children){
+foreach (Person child in harry.Children)
+{
     WriteLine(
         format: "{0}'s child is named \"{1}\".",
         arg0: harry.Name,
@@ -29,7 +30,8 @@ foreach(Person child in harry.Children){
     );
 }
 
-foreach(Person child in mary.Children){
+foreach (Person child in mary.Children)
+{
     WriteLine(
         format: "{0}'s child is named \"{1}\".",
         arg0: mary.Name,
@@ -37,7 +39,8 @@ foreach(Person child in mary.Children){
     );
 }
 
-foreach(Person child in jill.Children){
+foreach (Person child in jill.Children)
+{
     WriteLine(
         format: "{0}'s child is named \"{1}\".",
         arg0: jill.Name,
@@ -70,7 +73,7 @@ using (Animal a = new Animal())
 
 }
 
-var employee = new Employee{ Name= "Employee", HireDate = DateTime.Now, DateOfBirth = DateTime.Now};
+var employee = new Employee { Name = "Employee", HireDate = DateTime.Now, DateOfBirth = DateTime.Now };
 employee.WriteToConsole();
 WriteLine(employee);
 
