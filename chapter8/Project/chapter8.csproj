@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>Thor Publishing</Company>
+    <Version>1.33.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../WorkingWithNumbers/WorkingWithNumbers.csproj" />
+    <ProjectReference Include="../WorkingWithRegularExpressions/WorkingWithRegularExpressions.csproj" />
+    <ProjectReference Include="../WorkingWithRanges/WorkingWithRanges.csproj" />
+  </ItemGroup>
+
+</Project>
