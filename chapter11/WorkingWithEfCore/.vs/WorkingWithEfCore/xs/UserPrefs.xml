@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{1DBE85B6-19C2-4FAB-861F-76465C6D30CA}|Default">
+  <MonoDevelop.Ide.ItemProperties.WorkingWithEfCore PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Product.cs" Line="38" Column="28" />
+      <File FileName="Program.cs" Line="161" Column="6" />
+      <File FileName="Northwind.cs" Line="17" Column="27" />
+      <File FileName="Northwind.sql" Line="141" Column="15" />
+      <File FileName="MyLinqExtensions.cs" Line="52" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WorkingWithEfCore" expanded="True">
+            <Node name="WorkingWithEfCore" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

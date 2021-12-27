@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{27AEEBD1-8A6D-4F70-8CD6-093C0A1F235C}|Default">
+  <MonoDevelop.Ide.ItemProperties.AsyncConsole FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkingWithTasks/Program.cs">
+    <Files>
+      <File FileName="WorkingWithTasks/Program.cs" Line="63" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="chapter13" expanded="True">
+            <Node name="MonitorApp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="MonitorLib" expanded="True" />
+            <Node name="WorkingWithTasks" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MonitorApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
+</Properties>
