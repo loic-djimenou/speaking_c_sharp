@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{327F5846-EE6A-49D2-9AC9-048F5A808D4D}|Default">
+  <MonoDevelop.Ide.ItemProperties.NorthwindService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NorthwindService/Program.cs">
+    <Files>
+      <File FileName="NorthwindService/Program.cs" Line="16" Column="24" />
+      <File FileName="NorthwindService/Controllers/WeatherForecastController.cs" Line="36" Column="1" />
+      <File FileName="NorthwindService/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="NorthwindService/WeatherForecast.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="chapter18" expanded="True">
+            <Node name="NorthwindService" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
